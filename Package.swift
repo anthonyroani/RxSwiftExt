@@ -4,6 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "RxSwiftExt",
+    platforms: [.iOS(.v9)],
     platforms: [
         .iOS(.v8), .tvOS(.v9), .macOS(.v10_11), .watchOS(.v3)
     ],
